@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://source.unsplash.com/pencils-on-blue-table-7ACuHoezUYk) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Sirin Stencil', sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.start-button {
+    padding: 20px 40px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    background-color: #2980b9;
+}
+
+.calculator-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin: 50px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.error {
+    color: #dc3545;
+}
+
+.result-text {
+    color: black;
+    text-align: center;
+}
