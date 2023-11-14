@@ -6,6 +6,9 @@ import jakarta.validation.ConstraintValidatorContext;
 
 import static calculator.entity.Operation.DIVISION;
 
+/*
+Validator class for @interface ItDoesNotDivideByZero
+ */
 public class ItDoesNotDivideByZeroValidator implements ConstraintValidator<ItDoesNotDivideByZero, MathOperation> {
 
     @Override

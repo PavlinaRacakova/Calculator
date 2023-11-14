@@ -4,7 +4,9 @@ import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
 import java.lang.annotation.*;
-
+/*
+Class validation annotation for MathOperation class to prevent division by zero during computations
+ */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = ItDoesNotDivideByZeroValidator.class)

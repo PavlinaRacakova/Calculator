@@ -5,7 +5,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.text.DecimalFormat;
-
+/*
+Service class for CalculatorController
+ */
 @Service
 public class CalculatorService {
 
