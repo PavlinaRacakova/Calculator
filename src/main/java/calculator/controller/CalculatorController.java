@@ -3,6 +3,7 @@ package calculator.controller;
 import calculator.entity.MathOperation;
 import calculator.service.CalculatorService;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,13 +12,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@RequiredArgsConstructor
 public class CalculatorController {
 
     private final CalculatorService service;
-
-    public CalculatorController(CalculatorService service) {
-        this.service = service;
-    }
 
     @GetMapping("/")
     public String welcome() {
