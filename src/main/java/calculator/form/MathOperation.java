@@ -1,4 +1,4 @@
-package calculator.entity;
+package calculator.form;
 
 import calculator.validation.FirstGroupToBeValidated;
 import calculator.validation.ItDoesNotDivideByZero;

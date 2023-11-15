@@ -1,6 +1,6 @@
 package calculator.service;
 
-import calculator.entity.MathOperation;
+import calculator.form.MathOperation;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.ModelAndView;
 

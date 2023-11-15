@@ -1,10 +1,10 @@
 package calculator.validation;
 
-import calculator.entity.MathOperation;
+import calculator.form.MathOperation;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-import static calculator.entity.Operation.DIVISION;
+import static calculator.form.Operation.DIVISION;
 
 /*
 Validator class for @interface ItDoesNotDivideByZero

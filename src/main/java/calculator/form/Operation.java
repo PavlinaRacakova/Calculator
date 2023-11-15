@@ -1,4 +1,4 @@
-package calculator.entity;
+package calculator.form;
 /*
 Possible mathematical operations
  */

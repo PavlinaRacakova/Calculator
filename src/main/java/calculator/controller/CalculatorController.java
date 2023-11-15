@@ -1,6 +1,6 @@
 package calculator.controller;
 
-import calculator.entity.MathOperation;
+import calculator.form.MathOperation;
 import calculator.service.CalculatorService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
