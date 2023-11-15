@@ -28,6 +28,7 @@ dependencies {
 	implementation 'no.api.freemarker:freemarker-java8:2.1.0'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
 
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
