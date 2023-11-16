@@ -62,6 +62,10 @@
         [@spring.bind "mathOperation.operation"/]
         <div class="error">[@spring.showErrors "<br>"/]</div>
 
+        [#list springMacroRequestContext.getBindStatus("mathOperation").errorMessages as classLevelError]
+            <div class="error">${classLevelError}</div>
+        [/#list]
+
         <div class="text-center">
             <button class="btn btn-primary" type="submit">Calculate</button>
         </div>
